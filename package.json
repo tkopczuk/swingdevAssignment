@@ -1,0 +1,25 @@
+{
+  "name": "swingdevassignment",
+  "version": "1.0.0",
+  "description": "SwingDev Node.js Recruitment Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexstefanski/swingdevAssignment.git"
+  },
+  "author": "Alexander Stefanski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexstefanski/swingdevAssignment/issues"
+  },
+  "homepage": "https://github.com/alexstefanski/swingdevAssignment#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.0",
+    "path": "^0.12.7"
+  }
+}
