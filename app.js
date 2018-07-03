@@ -24,7 +24,7 @@ MongoClient.connect("mongodb://mo1335_swingdev:SwingDevRec18@mongo16.mydevil.net
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(function(req, res, next) {
-	req.db = db;
+	req.db = db.db('mo1335_swingdev');
 	next();
 });
 
