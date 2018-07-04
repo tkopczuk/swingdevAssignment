@@ -9,7 +9,7 @@ const appRouter = require('./appRouter.js');
 let MongoClient = require('mongodb').MongoClient;
 let db;
 
-MongoClient.connect("mongodb://mo1335_swingdev:SwingDevRec18@mongo16.mydevil.net:27017/mo1335_swingdev", {useNewUrlParser: true}, function(err, database) {
+MongoClient.connect(process.env.MONGODB_URI, {useNewUrlParser: true}, function(err, database) {
 	if(err) throw err;
 	
 	db = database;
